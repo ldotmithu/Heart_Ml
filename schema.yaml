@@ -1,14 +1,18 @@
-Age
-Gender
-Chest Pain Type
-Resting Blood Pressure
-Serum Cholesterol
-Fasting Blood Sugar
-Resting Electrocardiographic Results
-Maximum Heart Rate Achieved
-Exercise induced angina
-Depression induced by exercise relative to rest
-Slope of the Peak Exercise ST Segment
-Number of Major Vessels Colored by Fluoroscopy
-Thalassemia
-Target
+COLUMNS:
+ Age: int64  
+ Gender: int64 
+ Chest Pain Type: int64  
+ Resting Blood Pressure: int64  
+ Serum Cholesterol: int64  
+ Fasting Blood Sugar: int64  
+ Resting Electrocardiographic Results: int64  
+ Maximum Heart Rate Achieved: int64
+ Exercise induced angina: int64
+ Depression induced by exercise relative to rest: float64
+ Slope of the Peak Exercise ST Segment: int64  
+ Number of Major Vessels Colored by Fluoroscopy: int64  
+ Thalassemia: int64
+ Target: int64
+
+TARGET_COLUMN:
+ name: Target  
